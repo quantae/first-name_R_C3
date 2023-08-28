@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Button from "./components/button/Button";
 
 function App() {
   function Name() {
@@ -18,6 +19,7 @@ function App() {
         <li>HTML</li>
         <li>CSS</li>
         <li>JAVASCRIPT</li>
+        <li>React</li>
       </ul>
     </div>
   );
@@ -26,6 +28,8 @@ function App() {
     <div className="App">
       <Name />
       <Skills/>
+      <Button label={"Login"}/> <br/>
+      <Button label="Signin"/>
     </div>
   );
 }
