@@ -1,11 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  function Name() {
+    return (
+      <div>
+        <h1>Gerald Ofori-Atta</h1>
+        <p>A diagnostic medical sonographer from Knust</p>
+      </div>
+    );
+  }
+
+  const Skills = () => (
+    <div>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+      </ul>
+    </div>
+  );
+
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <p>I am Geral Ofori-Atta and this is my first React application</p>
+      <Name />
+      <Skills/>
     </div>
   );
 }
